@@ -16,6 +16,7 @@ ex: server_name www.domain.com
 | server{ ... } | Virtual Host like Apache |
 | location{ ... } | Matching url location |
 
+```bash
 http{
   ... 
   server{
@@ -25,7 +26,7 @@ http{
   ...
   }
 }
-
+```
 
 # Check the config
 ```bash 
