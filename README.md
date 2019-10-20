@@ -9,6 +9,7 @@ name value
 ex: server_name www.domain.com
 
 * Contexts
+
 | context       | Sample       |  
 | ---           | ---          | 
 | http{ ... }   | http related |
