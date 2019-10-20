@@ -9,7 +9,8 @@ name value
 ex: server_name www.domain.com
 
 * Contexts
- 
+
+| -             |  -           | 
 | http{ ... }   | http related |
 | server{ ... } | Virtual Host like Apache |
 | location{ ... } | Matching url location |
