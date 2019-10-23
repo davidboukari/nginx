@@ -1,6 +1,15 @@
 ### Install from epel because it is not available in standard repo###
 
 * yum install epel-release
+* yum install nginx
+
+### Variables documentation ###
+
+* To see the compiled modules
+
+nginx -V
+
+* http://nginx.org/en/docs/varindex.html
 
 Configuration 
 
