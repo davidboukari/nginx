@@ -1,4 +1,4 @@
-### Install from epel because it is not available in standard repo###
+### Install from epel because it is not available in standard repo
 
 * yum install epel-release
 * yum install nginx
@@ -90,11 +90,11 @@ cat nginx-mydomain.com.conf
           proxy_set_header Host $host;
 
           proxy_pass         http://127.0.0.1:9000;
-          proxy_redirect     http://127.0.0.1:9000   https://<CHANGETHEIP>:4490;
+          proxy_redirect     http://127.0.0.1:9000   https://<THEREMOTEIP>:4490;
         }
 
 systemctl restart nginx
 
 # Go to 
-https://<CHANGETHEIP>:4490
+https://<REMOTEIP>:4490
 ```
